@@ -1,0 +1,9 @@
+
+X['workclass']=LabelEncoder().fit_transform(salary_train['workclass'])
+X['education']=LabelEncoder().fit_transform(salary_train['education'])
+X['maritalstatus']=LabelEncoder().fit_transform(salary_train['maritalstatus'])
+X['occupation']=LabelEncoder().fit_transform(salary_train['occupation'])
+X['relationship']=LabelEncoder().fit_transform(salary_train['relationship'])
+X['race']=LabelEncoder().fit_transform(salary_train['race'])
+X['sex']=LabelEncoder().fit_transform(salary_train['sex'])
+X['native']=LabelEncoder().fit_transform(salary_train['native'])

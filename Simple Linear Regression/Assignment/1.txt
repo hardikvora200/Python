@@ -1,0 +1,2 @@
+encoded_columns = pd.get_dummies(comp['premium'])
+comp = comp.join(encoded_columns).drop('premium', axis=1)  

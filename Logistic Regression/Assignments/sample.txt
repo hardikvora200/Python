@@ -1,0 +1,1 @@
+bank['y']=np.divide(bank['y']-bank['y'].min(),bank['y'].max()-bank['y'].min())

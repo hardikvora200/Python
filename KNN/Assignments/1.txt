@@ -1,0 +1,47 @@
+#### RI
+stats.norm.ppf(0.975,1.518365,0.003037)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["RI"],1.518365,0.003037) # similar to pnorm in R           
+#### Na
+stats.norm.ppf(0.975,13.407850,0.816604)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["Na"],13.407850,0.816604) # similar to pnorm in R 
+#### Mg
+stats.norm.ppf(0.975,2.684533,1.442408)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["Mg"],2.684533,1.442408) # similar to pnorm in R 
+#### Al
+stats.norm.ppf(0.975,1.444907, 0.499270)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["Al"], 1.444907, 0.499270) # similar to pnorm in R 
+#### Si
+stats.norm.ppf(0.975,72.650935,0.774546)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["Si"], 72.650935,0.774546) # similar to pnorm in R 
+#### K
+stats.norm.ppf(0.975,0.497056,0.652192)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["K"], 0.497056, 0.652192) # similar to pnorm in R 
+#### Ca
+stats.norm.ppf(0.975,8.956963,1.423153)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["Ca"],8.956963,1.423153) # similar to pnorm in R 
+#### Ba
+stats.norm.ppf(0.975,0.175047,0.497219)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["Ba"],0.175047,0.497219) # similar to pnorm in R 
+#### Fe
+stats.norm.ppf(0.975,0.057009,0.097439)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["Fe"],0.057009,0.097439) # similar to pnorm in R 
+#### Type
+stats.norm.ppf(0.975,2.780374,2.103739)# similar to qnorm in R 
+# cdf => cumulative distributive function 
+stats.norm.cdf(glass["Type"],2.780374,2.103739) # similar to pnorm in R 
+
+
+glass.mean() ## RI-1.518365,Na-13.407850,Mg-2.684533,Al-1.444907,
+### Si-72.650935,K-0.497056,Ca-8.956963,Ba-0.175047,Fe-0.057009,Type-2.780374
+
+glass.std() ##RI-0.003037,Na-0.816604,Mg-1.442408,Al-0.499270,Si-0.774546,
+###K-0.652192,Ca-1.423153,Ba-0.497219,Fe-0.097439,Type-2.103739
